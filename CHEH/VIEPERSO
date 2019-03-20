@@ -1,0 +1,29 @@
+if viepersonnage==1:
+
+      viepersoimage = pygame.image.load ('heart.png').convert_alpha()
+      viepersoimage = pygame.transform.scale(viepersoimage,(60,50))
+      fenetre.blit(viepersoimage, (20,20))
+
+  if viepersonnage==2:
+
+      viepersoimage = pygame.image.load ('heart.png').convert_alpha()
+      viepersoimage = pygame.transform.scale(viepersoimage,(60,50))
+      fenetre.blit(viepersoimage, (20,20))
+
+      viepersoimage2 = pygame.image.load ('heart2.png').convert_alpha()
+      viepersoimage2 = pygame.transform.scale(viepersoimage2,(60,50))
+      fenetre.blit(viepersoimage2, (90,20))
+
+  if viepersonnage==3:
+
+      viepersoimage = pygame.image.load ('heart.png').convert_alpha()
+      viepersoimage = pygame.transform.scale(viepersoimage,(60,50))
+      fenetre.blit(viepersoimage, (20,20))
+
+      viepersoimage2 = pygame.image.load ('heart2.png').convert_alpha()
+      viepersoimage2 = pygame.transform.scale(viepersoimage2,(60,50))
+      fenetre.blit(viepersoimage2, (90,20))
+
+      viepersoimage3 = pygame.image.load ('heart3.png').convert_alpha()
+      viepersoimage3 = pygame.transform.scale(viepersoimage3,(60,50))
+      fenetre.blit(viepersoimage3, (160,20))
